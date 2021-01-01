@@ -15,7 +15,7 @@ transition: 0.3s ease-in-out;
 right: ${({isOpen}) => (isOpen ? '0' : '-1000px')};
 
 @media screen and (max-width: 480px){
-    width:100%;
+    width:70%;
 }
 `;
 
@@ -24,6 +24,7 @@ color: #000;
 
 &:hover {
     color: #e31837;
+    
 `;
 
 export const Icon = styled.div`
@@ -37,8 +38,9 @@ cursor: pointer;
 outline:none;
 
 }
+`;
 
-`
+
 export const SidebarMenu = styled.div`
 display:grid;
 grid-template-columns:1fr;

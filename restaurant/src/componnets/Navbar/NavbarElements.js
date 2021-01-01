@@ -12,7 +12,7 @@ font-weight: 700;
 
 export const NavLink = styled(Link)`
 color: #fff;
-font-size: 2rem;
+font-size: 5rem;
 display: flex;
 align-items: center;
 text-decoration: none;
@@ -32,7 +32,7 @@ position: absolute;
 top: 1%;
 right:0;
 cursor: pointer;
-color: #fff;
+color: #268;
 
 p {
     transform: translate(-175%, 100%);
