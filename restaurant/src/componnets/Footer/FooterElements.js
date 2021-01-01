@@ -2,7 +2,7 @@ import styled from "styled-components";
 import {Link} from 'react-router-dom';
 
 export const FooterContainer = styled.footer`
-background-color: #0d0909;
+background-color: #f44;
 `;
 
 export const FooterWrap = styled.div`
