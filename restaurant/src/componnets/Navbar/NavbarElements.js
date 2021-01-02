@@ -32,7 +32,13 @@ position: absolute;
 top: 1%;
 right:0;
 cursor: pointer;
-color: #268;
+color: #fff;
+transition-duration: 600ms;
+
+&:hover {
+    transform: rotate(15deg);
+    color: red;
+}
 
 p {
     transform: translate(-175%, 100%);
